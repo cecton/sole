@@ -10,7 +10,7 @@ Synopsis
 import sole
 
 # connect
-server = sole.connect("http://localhost:8069/xmlrpc", "DBNAME", "toto", "pwd")
+server = sole.connect("http://localhost:8069", "DBNAME", "toto", "pwd")
 
 # get a method
 search_partners = server('res.partner', 'search')
